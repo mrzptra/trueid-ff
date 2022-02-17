@@ -8,7 +8,7 @@
 function trueidff($userid){
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://reztod.my.id/api/trueid_ff.php?userid='.$userid.'',
+  CURLOPT_URL => 'http://razepedia.my.id/api/trueid_ff.php?userid='.$userid.'',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
